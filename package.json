@@ -1,0 +1,34 @@
+{
+  "name": "fauxerhose",
+  "version": "1.0.0",
+  "description": "A more flexible firehose",
+  "main": "fauxerhose.js",
+  "scripts": {
+    "ava": "ava",
+    "test": "nyc --all ava && nyc report --reporter=lcov",
+    "posttest": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougmoscrop/fauxerhose.git"
+  },
+  "keywords": [
+    "kinesis",
+    "firehose"
+  ],
+  "author": "Doug Moscrop <doug.moscrop@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dougmoscrop/fauxerhose/issues"
+  },
+  "homepage": "https://github.com/dougmoscrop/fauxerhose#readme",
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "nyc": "^11.0.0",
+    "sinon": "^4.0.0"
+  },
+  "dependencies": {
+    "pump-promise": "^1.0.0",
+    "stream-forward": "^3.0.0"
+  }
+}
