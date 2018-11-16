@@ -29,10 +29,8 @@
     "nyc": "^13.1.0",
     "sinon": "^7.1.1"
   },
-  "peerDependencies": {
-    "aws-sdk": "^2.0.0"
-  },
   "dependencies": {
+    "aws-sdk": "^2.0.0",
     "aws-streams": "^1.4.0",
     "pump-promise": "^1.0.0"
   }
