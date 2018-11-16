@@ -23,12 +23,17 @@
   },
   "homepage": "https://github.com/dougmoscrop/fauxerhose#readme",
   "devDependencies": {
-    "ava": "^0.23.0",
-    "nyc": "^11.0.0",
-    "sinon": "^4.0.0"
+    "ava": "^0.25.0",
+    "aws-sdk": "^2.356.0",
+    "eslint": "^5.9.0",
+    "nyc": "^13.1.0",
+    "sinon": "^7.1.1"
+  },
+  "peerDependencies": {
+    "aws-sdk": "^2.0.0"
   },
   "dependencies": {
-    "pump-promise": "^1.0.0",
-    "stream-forward": "^3.0.0"
+    "aws-streams": "^1.4.0",
+    "pump-promise": "^1.0.0"
   }
 }
